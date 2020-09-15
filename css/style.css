@@ -1,0 +1,132 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+/*Navegation bar*/
+.navegation{
+    background-color: white;
+    /*border-style: solid;*/
+    box-shadow: 0 0.125rem 0.25rem 0 rgba(0,0,0,.11);
+    border: 1px solid transparent;
+    
+}
+.navegation .conteiner-nav header{
+    font-size: 0.5em;
+    text-transform: uppercase;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+.navegation .conteiner-nav{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin: auto;
+    width: 1170px;;
+    display: flex;
+    justify-content: space-between;
+    padding: 9px 20px;
+}
+.navegation .conteiner-nav nav{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.navegation .conteiner-nav nav ul li{
+    display: inline;
+    margin-left: 10px;
+    font-weight: 600;
+}
+.navegation .conteiner-nav nav ul li a{
+    color: #313131;
+}
+.navegation .conteiner-nav nav ul li a:hover{
+    color: #0095eb;
+}
+
+/*general*/
+a{
+    text-decoration: none;
+}
+section{
+    display: inline;
+}
+
+
+/*Profile*/
+.profile li i{
+    font-size: 2rem;
+    margin: 10px;  
+}
+.contacts li {
+    display: inline;
+}
+.link{
+    color: #0095eb;
+}
+
+.profile{
+    display: block;
+    float: left;
+    text-align: center;
+    width: 25%;
+}
+.profile h3,h2{
+    font-weight: 300;
+}
+.profile h3{
+    color: rgba(0,0,0, 0.54);
+}
+.contacts{
+    display: inline;
+}
+
+
+section{
+    width: 80%;
+    display: block;
+    margin: auto;
+    
+}
+/*information*/
+.information{
+    padding-top: 40px;
+    display: block;
+    width: 70%;
+    float: right;
+    letter-spacing: 0.015em;
+    line-height: 1.7;
+    color: #333;
+
+}
+.conteiner-columns{
+    display: flex;
+}
+.photo{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    margin-top: 50px;
+    background-color: red;
+    border-radius: 50%;
+}
+.column-educations div:first-child{
+    display: flex;
+}
+.column-educations div:nth-child(2){
+    line-height: 0;
+}
+
+.column-educations div i{
+    margin: auto;
+    padding-right: 10px;
+}
+.column-educations ul{
+    list-style: none;
+}
+.column-educations .edu{
+    font-size: 0.75rem;
+    
+    color: rgba(0,0,0,0.6);
+}
