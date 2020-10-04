@@ -1,0 +1,24 @@
+.navegation{
+    box-shadow: 0 0.125rem 0.25rem 0 rgba(0,0,0,.11);
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    header{
+        display: block;
+    }
+    .conteiner-nav{
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin: auto;
+        ul{
+            display: flex;
+            li{
+                
+                margin-left: 70px;;
+            }
+        }
+    }
+}

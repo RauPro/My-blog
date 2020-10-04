@@ -1,0 +1,86 @@
+footer{
+    //height: 300px;
+    background-color: rgb(247, 247, 247);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    .contacts{
+        width: 50%;
+    }
+    textarea{
+        height: 80px;
+        resize: vertical;
+        width: 97%;
+        border-radius: 10px;
+        font-family: 'Montserrat';
+        border:1px solid;
+        font-size: 0.9em;
+        padding: 10px;
+    }
+    form{
+        width: 100%;
+        text-align: center;
+    }
+    input[type=email]{
+        width: 97%;
+    }
+    input[type=text]{
+        width: 47%;
+        overflow: hidden;
+    }
+    input{
+        font-family: 'Montserrat';
+        height: 30px;
+        border-radius: 10px;
+        border: 1px solid;
+        margin-bottom: 10px;
+        padding-left: 10px;
+    }
+    button{
+        margin: auto;
+        width: 80px;
+        height: 30px;
+        border: 1px solid black;
+        margin-top: 10px;
+        border-radius: 10px;;
+    }
+    button:hover{
+        transition: width 0.5s;
+        width: 97%;
+    }
+    input:nth-child(1) {
+        margin-top: 30px;
+        }
+    div:nth-child(1) {
+        position: relative;
+        h1{
+            position: absolute;
+            top: 20%;
+            font-size: 3.5em;
+            font-weight: 600;
+        }
+    }
+    ul{
+        padding-top: 50px;
+        padding-bottom: 80px;
+        display: flex;
+        justify-content: space-around;
+    }
+    @media screen and (max-width: 1200px) {
+        display: block;
+        div:nth-child(1) {
+            position: unset;
+            text-align: center;
+            h1{
+                padding-top: 10px;
+                position: unset;
+                text-align: center;
+            }
+            margin: auto;
+            
+      }
+      div.contacts {
+        margin: auto;
+        }
+}
+}
