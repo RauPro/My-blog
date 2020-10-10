@@ -1,0 +1,30 @@
+@mixin backface-visibility($visibility: hidden) {
+    backface-visibility: $visibility;
+    -webkit-backface-visibility: $visibility;
+    -moz-backface-visibility: $visibility;
+    -ms-backface-visibility: $visibility;
+    -o-backface-visibility: $visibility;
+  }
+  
+  @mixin transition($time){
+    transition: $time;
+    -webkit-transition: $time;
+    -moz-transition: $time;
+    -o-transition: $time;
+  }
+  
+  @mixin transform($transformation) {
+    transform: $transformation;
+    -webkit-transform: $transformation;
+    -moz-transform: $transformation;
+    -ms-transform: $transformation;
+    -o-transform: $transformation;  
+  }
+  
+  @mixin transform-style($style){
+     transform-style: $style;
+    -moz-transform-style: $style;
+    -o-transform-style: $style;
+    -ms-transform-style: $style;
+    -webkit-transform-style: $style;
+  }
