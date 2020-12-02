@@ -285,3 +285,43 @@ section{
 
     
 }
+.skills{
+    @media (max-width: 1145px) {
+        #classImgSkill{
+            h1{
+                font-size: 2.5em!important;
+            }
+        }
+        #webImg{
+            width: 200px;
+            height: 200px;
+        }
+    }
+    @media (max-width: 1125px) {
+        .main{
+            display: block;
+            .box{
+                width: 500px;
+                margin: auto;
+            }
+            .box:first-child{
+                padding-bottom: 10px;
+            }
+        }
+    }
+    @media (max-width: 1125px) {
+        .main{
+            display: block;
+            .box{
+                width: 450px;
+                margin: auto;
+            }
+            .box:first-child{
+                padding-bottom: 50px;
+            }
+            .box:nth-child(2){
+                padding-top: 25px;
+            }
+        }
+    }
+}
