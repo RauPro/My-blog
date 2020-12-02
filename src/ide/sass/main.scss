@@ -3,4 +3,7 @@ $second-color:#0095eb;
 @import "base/mixin";
 @import "layouts/header";
 @import "layouts/section";
-@import "layouts/footer"
+@import "layouts/footer";
+body{
+  min-width: 500px;
+}
