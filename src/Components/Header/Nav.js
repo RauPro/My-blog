@@ -1,24 +1,20 @@
 import React from 'react';
 import {Router, Link, BrowserRouter} from "react-router-dom";
+import  {Navbar,Nav} from "react-bootstrap";
 function nav(){
     return(
-        <div className="navegation">
-            <div className="conteiner-nav">
-                <header>
-                    <h1>Raul Guillen</h1>
-                </header>
-                <nav>
-                    <ul>
-                        <BrowserRouter>
-                        <li> <Link to="/">Home</Link>  </li>
-                        <li><a href="">Post</a></li>
-                        <li><a href="">Portfolio</a></li>
-                        <li><Link to="/getintouch">Contact</Link></li>
-                        </BrowserRouter>
-                    </ul>
-                </nav>
-            </div>
-        </div>
+        <Navbar className="navegation" expand="lg">
+            <Navbar.Brand><Link to="/"><div className="pl-5">Raul Guillen</div></Link></Navbar.Brand>
+            <Navbar.Toggle aria-controls="basic-navbar-nav" />
+            <Navbar.Collapse id="basic-navbar-nav">
+                <Nav className="ml-auto pr-5">
+                    <Nav.Link><Link to="/">Home</Link></Nav.Link>
+                    <Nav.Link ><Link to="/post">Post</Link></Nav.Link>
+                    <Nav.Link ><Link to="/portfolio">Portfolio</Link></Nav.Link>
+                    <Nav.Link> <Link to="/contact">Contact</Link> </Nav.Link>
+                </Nav>
+            </Navbar.Collapse>
+        </Navbar>
     );
 }
 export default nav;
