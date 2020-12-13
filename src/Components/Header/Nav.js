@@ -1,6 +1,7 @@
 import React from 'react';
 import {Router, Link, BrowserRouter} from "react-router-dom";
 import  {Navbar,Nav} from "react-bootstrap";
+import resume from "../../ide/Resume.pdf"
 function nav(){
     return(
         <Navbar className="navegation" expand="lg">
