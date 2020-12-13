@@ -1,9 +1,10 @@
 import React from 'react';
 import {FaEnvelope, FaGithub, FaLinkedin} from "react-icons/all";
+import perf from "../../../ide/img/prof.jpg"
 function Profile(){
     return(
         <div className="profile">
-            <div className="photo">
+            <div className="photo" style={{backgroundImage: `url(${perf})`}}>
 
             </div>
             <h2>Raul Guillen</h2>
