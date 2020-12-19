@@ -5,27 +5,27 @@ function Impormation(icon){
     return(
         <div className="information">
             <h3>About me</h3>
-            <p>I'm a CS Engineering Student and IEEE's member. Currently i'm learning about advanced
-                algorithms(Advanced
-                dinamic programing, Np-Completeness and Linear Programming (LP)) I am focused on learning new skills
+            <p>I'm a CS Engineering Student and IEEE's member. Currently i'm learning about
+                algorithms(
+                Dinamic programing, Divide and Conquer and Linear Programming (LP)) I am focused on learning new skills
                 and
                 methods to become a good researcher...During my BEng i have participated on ICPC Regional contest
                 and
-                collaborated with other sofware developers after to finish my bachelor degree of engineering i want
+                collaborated with other software developers after to finish my bachelor degree of engineering, I want
                 to
                 study a PhD in Artificial Intelligence</p><br/>
             <p>Let’s build more robust and secure AI together! See my LinkedIn profile for more details about my
                 skills
-                and experience. Please reach out if you want to collaborate.</p>
+                and experience. Please reach out if you want to collaborate in Software project!.</p>
             <div className="conteiner-columns">
                 <div className="column">
                     <h3>Interest</h3>
                     <ul>
                         <li>Artificial intelligence</li>
-                        <li>Computer Vision</li>
-                        <li>Machine Vision</li>
-                        <li>Agorithms NLP</li>
-                        <li>Scalable inference</li>
+                        <li>Machine Learning</li>
+                        <li>Competitive Programming</li>
+                        <li>Java Development</li>
+                        <li>Algorithms</li>
                     </ul>
                 </div>
                 <div className="column-educations">
